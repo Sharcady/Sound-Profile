@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hystou.sndprfl">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_handmaid"
+        android:label="Sound Profile"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Set_settings" />
+            <intent-filter>
+                <action android:name="android.intent.action.SECOND_ACTIVITY" />
+            </intent-filter>
+        <activity android:name=".Choose_Existing_Activity">
+                <intent-filter>
+                    <action android:name="android.intent.action.THIRD_ACTIVITY" />
+                </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
