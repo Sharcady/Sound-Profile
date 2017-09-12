@@ -7,18 +7,21 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class MainMenu extends AppCompatActivity {
 
-    TextView title;
+    TextView Title;
     Button Creation;
     Button Choosing;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        title = (TextView) findViewById(R.id.textView2);
+        Title = (TextView) findViewById(R.id.textView2);
         Creation = (Button) findViewById(R.id.Creation);
         Choosing = (Button) findViewById(R.id.Choosing);
 
